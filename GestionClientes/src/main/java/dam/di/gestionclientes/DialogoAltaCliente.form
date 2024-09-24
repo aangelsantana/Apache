@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="btnGuardar" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel1" min="-2" pref="75" max="-2" attributes="0"/>
+                          <Component id="jLabel4" min="-2" pref="75" max="-2" attributes="0"/>
+                          <Component id="jLabel5" min="-2" pref="75" max="-2" attributes="0"/>
+                          <Component id="jLabel6" min="-2" pref="75" max="-2" attributes="0"/>
+                          <Component id="jLabel7" min="-2" pref="75" max="-2" attributes="0"/>
+                          <Component id="jLabel8" min="-2" pref="75" max="-2" attributes="0"/>
+                          <Component id="jLabel9" min="-2" pref="75" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="cmbProvincia" pref="424" max="32767" attributes="0"/>
+                          <Component id="cmbCiudad" max="32767" attributes="0"/>
+                          <Component id="jTxtNombre" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jTxtApellido" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jTxtEmail" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jTxtDireccion" alignment="0" max="32767" attributes="0"/>
+                          <Component id="spnFechaAlta" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="33" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace pref="56" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jLabel1" max="32767" attributes="0"/>
+                  <Component id="jTxtNombre" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTxtApellido" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel6" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTxtEmail" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel5" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTxtDireccion" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel4" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel8" alignment="3" max="32767" attributes="0"/>
+                  <Component id="cmbCiudad" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel7" alignment="3" max="32767" attributes="0"/>
+                  <Component id="cmbProvincia" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel9" alignment="3" max="32767" attributes="0"/>
+                  <Component id="spnFechaAlta" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Component id="btnGuardar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="jTxtNombre">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtApellido">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtEmail">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtDireccion">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbCiudad">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="8">
+            <StringItem index="0" value="Barcelona"/>
+            <StringItem index="1" value="Bilbao"/>
+            <StringItem index="2" value="Granada"/>
+            <StringItem index="3" value="Madrid"/>
+            <StringItem index="4" value="M&#xe1;laga"/>
+            <StringItem index="5" value="Palm"/>
+            <StringItem index="6" value="Santander"/>
+            <StringItem index="7" value="Sevilla"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbProvincia">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="50">
+            <StringItem index="0" value="A Coru&#xf1;a"/>
+            <StringItem index="1" value="&#xc1;lava"/>
+            <StringItem index="2" value="Albacete"/>
+            <StringItem index="3" value="Alicante"/>
+            <StringItem index="4" value="Almer&#xed;a"/>
+            <StringItem index="5" value="Asturias"/>
+            <StringItem index="6" value="&#xc1;vila"/>
+            <StringItem index="7" value="Badajoz"/>
+            <StringItem index="8" value="Baleares"/>
+            <StringItem index="9" value="Barcelona"/>
+            <StringItem index="10" value="Burgos"/>
+            <StringItem index="11" value="C&#xe1;ceres"/>
+            <StringItem index="12" value="C&#xe1;diz"/>
+            <StringItem index="13" value="Cantabria"/>
+            <StringItem index="14" value="Castell&#xf3;n"/>
+            <StringItem index="15" value="Ciudad Real"/>
+            <StringItem index="16" value="C&#xf3;rdoba"/>
+            <StringItem index="17" value="Cuenca"/>
+            <StringItem index="18" value="Girona"/>
+            <StringItem index="19" value="Granada"/>
+            <StringItem index="20" value="Guadalajara"/>
+            <StringItem index="21" value="Gipuzkoa"/>
+            <StringItem index="22" value="Huelva"/>
+            <StringItem index="23" value="Huesca"/>
+            <StringItem index="24" value="Ja&#xe9;n"/>
+            <StringItem index="25" value="La Rioja"/>
+            <StringItem index="26" value="Las Palmas"/>
+            <StringItem index="27" value="Le&#xf3;n"/>
+            <StringItem index="28" value="L&#xe9;rida"/>
+            <StringItem index="29" value="Lugo"/>
+            <StringItem index="30" value="Madrid"/>
+            <StringItem index="31" value="M&#xe1;laga"/>
+            <StringItem index="32" value="Murcia"/>
+            <StringItem index="33" value="Navarra"/>
+            <StringItem index="34" value="Ourense"/>
+            <StringItem index="35" value="Palencia"/>
+            <StringItem index="36" value="Pontevedra"/>
+            <StringItem index="37" value="Salamanca"/>
+            <StringItem index="38" value="Segovia"/>
+            <StringItem index="39" value="Sevilla"/>
+            <StringItem index="40" value="Soria"/>
+            <StringItem index="41" value="Tarragona"/>
+            <StringItem index="42" value="Santa Cruz de Tenerife"/>
+            <StringItem index="43" value="Teruel"/>
+            <StringItem index="44" value="Toledo"/>
+            <StringItem index="45" value="Valencia"/>
+            <StringItem index="46" value="Valladolid"/>
+            <StringItem index="47" value="Vizcaya"/>
+            <StringItem index="48" value="Zamora"/>
+            <StringItem index="49" value="Zaragoza"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Direcci&#xf3;n"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Email"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Apellido"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Provincia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ciudad"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fecha de Alta"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSpinner" name="spnFechaAlta">
+      <Properties>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel initial="now" stepSize="5" type="date"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnGuardar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Guardar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGuardarActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
